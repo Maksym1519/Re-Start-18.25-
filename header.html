@@ -1,0 +1,62 @@
+<header>
+    <div class="header">
+       <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restartLogo.svg" alt="logo"></a><span class="header-text">Restart — Ваша зона автокомфорту</span></div>
+       <nav class="header-navigation  container">
+       <div class="navigation-link_wrapper">
+        <a class="header-navigation_link _link-about" href="about.html">Про компанію</a>
+        <a class="header-navigation_link _link-network" href="network.html">Мережа СТЦ</a>
+        <a class="header-navigation_link _link-main" href="main.html">Інтернет-магазин</a>
+        <a class="header-navigation_link _link-ready-solution" href="ready-solution.html">Готові рішення для СТО</a>
+        <a class="header-navigation_link _link-contacts" href="contacts.html">Контакти</a>
+        </div>
+       </nav>
+   </div>
+   <div class="header-Ipad">
+    <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restart-logo_headerIpad.svg" alt="logo"></a>
+        <span class="header-text">Restart — Ваша зона автокомфорту</span>
+        <div class="main-header_gamburger">
+            <span class="gamburger-line"></span>
+        </div>
+    </div>
+   
+   </div>
+   <div class="main-modal">
+    <div class="main-modal_wrapper">
+      <div class="main-modal_item _modal-item_first"><a href="about.html" class="main-modal_itemLink">Про компанію</a>
+          <div class="main-modal_closeItem"><span class="closeItem-line"></span></div>
+      </div>
+      <div class="main-modal_item"><a href="network.html" class="main-modal_itemLink">Мережа СТЦ</a></div>
+      <div class="main-modal_item"><a href="main.html" class="main-modal_itemLink">Інтернет-магазин</a></div>
+      <div class="main-modal_item"><a href="ready-solution.html" class="main-modal_itemLink">Готові рішення для СТО</a></div>
+      <div class="main-modal_item"><a href="contacts.html" class="main-modal_itemLink">Контакти</a></div>
+  </div>
+  </div>
+  <script>
+    const gamburger = document.querySelector('.main-header_gamburger');
+    const closeGamburger = document.querySelector('.main-modal_closeItem');
+    const mainModalWindow = document.querySelector('.main-modal');
+   
+  
+    (function() {
+     gamburger.addEventListener('click', () => {
+     mainModalWindow.style.display = 'block';
+     mainModalWindow.style.zIndex = 201;
+     })
+ }());
+ (function () {
+     closeGamburger.addEventListener('click', () => {
+         mainModalWindow.style.display = 'none';
+     })
+ }());
+  
+ </script>
+ <!--<script>
+    const linkAbout = document.querySelector('._link-about');
+    const linkNetwork = document.querySelector('._link-network');
+    const linkInternetshop = document.querySelector('._link-main');
+    const linkReadySolution = document.querySelector('._link-ready-solution');
+    const linkContacts = document.querySelector('._link-contacts');
+    const link = document.querySelectorAll('a');
+</script>-->
+ 
+</header>

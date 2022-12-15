@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+    <title>Contacts</title>
+</head>-->
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		</style>
+	<title>Контакти</title>
+</head>
+<body class="contacts_linkActive">
+       <div class="header-wrapper">
+            <header>
+    <div class="header">
+       <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restartLogo.svg" alt="logo"></a><span class="header-text">Restart — Ваша зона автокомфорту</span></div>
+       <nav class="header-navigation  container">
+       <div class="navigation-link_wrapper">
+        <a class="header-navigation_link _link-about" href="about.html">Про компанію</a>
+        <a class="header-navigation_link _link-network" href="network.html">Мережа СТЦ</a>
+        <a class="header-navigation_link _link-main" href="main.html">Інтернет-магазин</a>
+        <a class="header-navigation_link _link-ready-solution" href="ready-solution.html">Готові рішення для СТО</a>
+        <a class="header-navigation_link _link-contacts" href="contacts.html">Контакти</a>
+        </div>
+       </nav>
+   </div>
+   <div class="header-Ipad">
+    <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restart-logo_headerIpad.svg" alt="logo"></a>
+        <span class="header-text">Restart — Ваша зона автокомфорту</span>
+        <div class="main-header_gamburger">
+            <span class="gamburger-line"></span>
+        </div>
+    </div>
+   
+   </div>
+   <div class="main-modal">
+    <div class="main-modal_wrapper">
+      <div class="main-modal_item _modal-item_first"><a href="about.html" class="main-modal_itemLink">Про компанію</a>
+          <div class="main-modal_closeItem"><span class="closeItem-line"></span></div>
+      </div>
+      <div class="main-modal_item"><a href="network.html" class="main-modal_itemLink">Мережа СТЦ</a></div>
+      <div class="main-modal_item"><a href="internet-shop.html" class="main-modal_itemLink">Інтернет-магазин</a></div>
+      <div class="main-modal_item"><a href="ready-solution.html" class="main-modal_itemLink">Готові рішення для СТО</a></div>
+      <div class="main-modal_item"><a href="contacts.html" class="main-modal_itemLink">Контакти</a></div>
+  </div>
+  </div>
+  <script>
+    const gamburger = document.querySelector('.main-header_gamburger');
+    const closeGamburger = document.querySelector('.main-modal_closeItem');
+    const mainModalWindow = document.querySelector('.main-modal');
+   
+  
+    (function() {
+     gamburger.addEventListener('click', () => {
+     mainModalWindow.style.display = 'block';
+     mainModalWindow.style.zIndex = 200;
+     })
+ }());
+ (function () {
+     closeGamburger.addEventListener('click', () => {
+         mainModalWindow.style.display = 'none';
+     })
+ }());
+  
+ </script>
+ <!--<script>
+    const linkAbout = document.querySelector('._link-about');
+    const linkNetwork = document.querySelector('._link-network');
+    const linkInternetshop = document.querySelector('._link-main');
+    const linkReadySolution = document.querySelector('._link-ready-solution');
+    const linkContacts = document.querySelector('._link-contacts');
+    const link = document.querySelectorAll('a');
+</script>-->
+ 
+</header>
+
+        </div>
+    <div class="contacts-backgroundGrey">
+        <div class="contacts-wrapper">
+            <div class="contacts-body">
+        <div class="contacts-container">
+            <h2 class="contacts-title">Контактна інформація</h2>
+            <div class="contacts-item_container">
+                <h2 class="contacts-titleDesctop">Контактна інформація</h2>
+             <div class="contacts-item">
+                <ul class="contacts-item_list">
+                    <li>Адреса офісу:</li>
+                    <li>Івана Підкови, 17г</li>
+                    <li>Рівне, Рівненська область, 33000</li>
+                    <li><a href="network.html">адреси сервісно-технічних центрів</a></li>
+                </ul>
+            </div>
+            <div class="contacts-item">
+                <ul class="contacts-item_list">
+                    <li>0362 46 0443</li>
+                    <li>0800 21 4343 <span class="contacts-lite_font">(безкоштовно)</span></li>
+                    <li>+38 067 362 4343 <span class="contacts-viber_font">(viber)</span></li>
+                    <li>067 208 34 70<span class="contacts-lite_font"><br class="contacts-lite_fontBr">(Регіональний менеджер)</span></li>
+                </ul>
+            </div>
+            <div class="contacts-item">
+                <ul class="contacts-item_list">
+                    <li>пошта: <span class="contacts-blue_font">info@restart.ua</span></li>
+                    <li>facebook: <span  class="contacts-blue_font">>restart.ua</span</li>
+                </ul>
+            </div>
+            <div class="contacts-item">
+                <ul class="contacts-item_list">
+                    <li>Розклад роботи офісу:</li>
+                    <li> Пн-Пт – з 9:00 до 18:00</li>
+                    <li> Субота – з 9:00 до 14:00</li>
+                    <li>Неділя – вихідний день</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="contacts-map_wrapper">
+         <img src="img/contacts-map.png" alt="" class="contacts-map_mobile">
+         <img src="img/contacts-map_Ipad.png" alt="" class="contacts-map_Ipad">
+         <img src="img/contacts-map_desktop.png" alt="" class="contacts-map_desctop">
+         <img src="img/contacts-map_details.png" alt="" class="contact-map_detail">
+        </div>
+            </div>
+    </div>
+    </div>
+    <div class="container">
+        <footer>
+    <div class="footer">
+        <div class="footer-wrapper">
+    <div class="navigation-link_footerWrapper">
+        <a class="footer-navigation_link _link-footerAbout" href="about.html">Про компанію</a>
+        <a class="footer-navigation_link _link-footerNetwork" href="network.html">Мережа СТЦ</a>
+        <a class="footer-navigation_link _link-footerInternet-shop" href="main.html">Інтернет-магазин</a>
+        <a class="footer-navigation_link _link-footerReady-solution" href="ready-solution.html">Готові рішення для СТО</a>
+        <a class="footer-navigation_link _link-footerContacts" href="contacts.html">Контакти</a>
+        </div>
+        <div class="footer-text_info"><p>
+            Мережа СТЦ Restart надає послуги діагностики, професійного 
+             стартера, генератора у Рівном, Луцьку. Заміна бендиксів, втягуючих реле,
+              статорів, роторів, втулок, щіток, підшипників, регуляторів, діодних мостів. 
+              Ремонт, заправка кондиціонерів. Продаж стартерів, генераторів. Великий вибір 
+              компонентів: бендикс стартера, підшипники до стартерів, підшипники до генераторів,
+               соленоїди, щітки стартера, якір стартера, регулятор генератора, шків генератора, 
+               діодний міст генератора, щітки генератора. У нашому асортименті стартера, генератори,
+                компоненти брендів AS, Cargo, Koyo, ZM, ZEN, IKA, Mobiletron, оригінальні бренди BOSCH, 
+                DELCO, DENSO.
+                </p>
+                <span>© Restart 2019</span>
+        </div>
+        </div>
+    </div>
+</footer>
+     </div>
+    <script>
+     const linkContacts = document.querySelector('._link-contacts');
+     if('.contacts_linkActive') {
+         linkContacts.style.color = '#888888'
+     }
+ </script>
+     <script>
+     const linkFooterContacts = document.querySelector('_link-footerContacts');
+        if('.contacts_linkActive') {
+            linkFooterContacts.style.color = '#888888'
+        }
+    </script>
+</body>
+</html>

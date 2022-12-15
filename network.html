@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+    <title>Мережа</title>
+</head>-->
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		</style>
+	<title>Мережа</title>
+</head>
+<body class="network_linkActive _linkActive-footer">
+   <div class="internet-shop_wrapper">
+         <div class="internet-shop_headerWrapper">
+         <header>
+    <div class="header">
+       <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restartLogo.svg" alt="logo"></a><span class="header-text">Restart — Ваша зона автокомфорту</span></div>
+       <nav class="header-navigation  container">
+       <div class="navigation-link_wrapper">
+        <a class="header-navigation_link _link-about" href="about.html">Про компанію</a>
+        <a class="header-navigation_link _link-network" href="network.html">Мережа СТЦ</a>
+        <a class="header-navigation_link _link-main" href="main.html">Інтернет-магазин</a>
+        <a class="header-navigation_link _link-ready-solution" href="ready-solution.html">Готові рішення для СТО</a>
+        <a class="header-navigation_link _link-contacts" href="contacts.html">Контакти</a>
+        </div>
+       </nav>
+   </div>
+   <div class="header-Ipad">
+    <div class="header-logo"><a href="main.html"><img class="header-logotip" src="img/restart-logo_headerIpad.svg" alt="logo"></a>
+        <span class="header-text">Restart — Ваша зона автокомфорту</span>
+        <div class="main-header_gamburger">
+            <span class="gamburger-line"></span>
+        </div>
+    </div>
+   
+   </div>
+   <div class="main-modal">
+    <div class="main-modal_wrapper">
+      <div class="main-modal_item _modal-item_first"><a href="about.html" class="main-modal_itemLink">Про компанію</a>
+          <div class="main-modal_closeItem"><span class="closeItem-line"></span></div>
+      </div>
+      <div class="main-modal_item"><a href="network.html" class="main-modal_itemLink">Мережа СТЦ</a></div>
+      <div class="main-modal_item"><a href="internet-shop.html" class="main-modal_itemLink">Інтернет-магазин</a></div>
+      <div class="main-modal_item"><a href="ready-solution.html" class="main-modal_itemLink">Готові рішення для СТО</a></div>
+      <div class="main-modal_item"><a href="contacts.html" class="main-modal_itemLink">Контакти</a></div>
+  </div>
+  </div>
+  <script>
+    const gamburger = document.querySelector('.main-header_gamburger');
+    const closeGamburger = document.querySelector('.main-modal_closeItem');
+    const mainModalWindow = document.querySelector('.main-modal');
+   
+  
+    (function() {
+     gamburger.addEventListener('click', () => {
+     mainModalWindow.style.display = 'block';
+     mainModalWindow.style.zIndex = 200;
+     })
+ }());
+ (function () {
+     closeGamburger.addEventListener('click', () => {
+         mainModalWindow.style.display = 'none';
+     })
+ }());
+  
+ </script>
+ <!--<script>
+    const linkAbout = document.querySelector('._link-about');
+    const linkNetwork = document.querySelector('._link-network');
+    const linkInternetshop = document.querySelector('._link-main');
+    const linkReadySolution = document.querySelector('._link-ready-solution');
+    const linkContacts = document.querySelector('._link-contacts');
+    const link = document.querySelectorAll('a');
+</script>-->
+ 
+</header>
+
+         </div>
+        <section class="shop-assortment">
+            <div class="shop-assortment_wrapper">
+                <div class="shop-assortment_container">
+                    <h2 class="shop-assortment_title">Мережа СЦТ Restart (Рестарт) надає наступні послуги</h2>
+                    <!--shop item--------------------------------------------------------------------->
+                    <div class="shop-item_wrapper">
+                    <div class="shop-item_body">
+                        <div class="shop-item_bodyFrame">
+                        <img src="img/starer.png" alt="" class="shop-item_img">
+                        <img src="img/starterIpad.png" alt="" class="shop-item_imgIpad">
+                        <h3 class="shop-item_title">Стартери</h3>
+                        <div class="shop-item_order">
+                        <p class="shop-item_description">Діагностика, ремонт, <br class="shop-item_descriptionBr">заміна, продаж.
+                            <a href="" class="shop-item_link"> Усі послуги</a>
+                        </p>
+                        </div>
+                        </div>
+                        <div class="shop-item_orderBottom">
+                            <p class="orderBottom-description">Підібрати стартер, деталі стартера <br class="shop-item_descriptionBr">можна в 
+                                <a href="" class="orderBottom-link">інтернет-магазині</a>
+                            </p>
+                            
+                        </div>
+                      </div>
+                      <div class="shop-item_body">
+                        <div class="shop-item_bodyFrame">
+                        <img src="img/generator.png" alt="" class="shop-item_img">
+                        <img src="img/generatorIpad.png" alt="" class="shop-item_imgIpad">
+                        <h3 class="shop-item_title">Генератори</h3>
+                        <div class="shop-item_order">
+                        <p class="shop-item_description">Діагностика, ремонт,<br class="shop-item_descriptionBr">
+                            заміна, продаж.
+                            <a href="" class="shop-item_link"> Усі послуги</a>
+                        </p>
+                       </div>
+                        </div>
+                        <div class="shop-item_orderBottom">
+                            <p class="orderBottom-description">Підібрати генератор, деталі генератора<br class="shop-item_descriptionBr">
+                                можна в <a href="" class="orderBottom-link">інтернет-магазині</a>
+                            </p>
+                       </div>
+                      </div>
+                       <div class="shop-item_body">
+                        <div class="shop-item_bodyFrame">
+                         <img src="img/condition.png" alt="" class="shop-item_img">
+                         <img src="img/conditionIpad.png" alt="" class="shop-item_imgIpad">
+                        <h3 class="shop-item_title">Кондиціонери</h3>
+                        <div class="shop-item_order">
+                        <p class="shop-item_description">Діагностика, ремонт, <br class="shop-item_descriptionBr"> заправка, дозаправка.
+                            <a href="" class="shop-item_link"> Усі послуги</a>
+                        </p>
+                       </div>
+                        </div>
+                        <div class="shop-item_orderBottom">
+                            <p class="orderBottom-description">
+                                Підібрати запчастини до системи <br class="shop-item_descriptionBr">кондиціонування можна в 
+                                <a href="" class="orderBottom-link">інтернет-магазині</a>
+                            </p>
+                        </div>
+                      </div>
+                      <div class="shop-item_body">
+                        <div class="shop-item_bodyFrame">
+                        <img src="img/acumulatior.png" alt="" class="shop-item_img">
+                        <img src="img/acumulatorIpad.png" alt="" class="shop-item_imgIpad">
+                        <h3 class="shop-item_title">Акумулятори</h3>
+                        <div class="shop-item_order">
+                        <p class="shop-item_description">Діагностика,<br class="shop-item_accumBr">
+                            заряд та продаж.</p>
+                         </div>
+                        </div>
+                        <div class="shop-item_orderBottom">
+                            <p class="orderBottom-description"></p>
+                            <a href="" class="orderBottom-link"></a>
+                        </div>
+                      </div>
+                    </div>
+     <!--------------------------------------------------------------------------------------------->                 
+                </div>
+            </div>
+        </section>
+        <!--Service station-------------------------------------------------------------------------->
+        <section class="service-station">
+       <div class="service-station_wrapper">
+        <div class="service-station_container">
+            <h2 class="service-station_headerDescription">Сьогодні в Компанії є 7 діючих сервісно-технічних центрів</h2>
+            
+            <div class="service-station_item">
+                <div class="service-station_cityContainer _cityRivne">
+                <div class="service-station_headerGeo">
+                    <img src="img/service-icon.svg" alt="" class="headerGeo-icon">
+                    <p class="headerGeo-place">СТЦ у Рівному</p>
+                </div>
+                <div class="service-station_adresses">
+                 <div class="service-station_adressesItem">
+                    <div class="_adressesItem-wrapper">
+                    <p class="adressesItem-contacts">Підкови, 17з  |  098 706 93 93</p>
+                    <p class="contacts-description">Ремонт та заправка кондиціонерів</p>
+                    </div>
+                    <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                 </div>
+                 <div class="service-station_adressesItem">
+                    <div class="_adressesItem-wrapper">
+                    <p class="adressesItem-contacts">Київська, 98г  |  067 707 07 59</p>
+                    <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                    </div>
+                    <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                 </div>
+                 <div class="service-station_adressesItem">
+                    <div class="_adressesItem-wrapper">
+                    <p class="adressesItem-contacts">Соборна, 446В  |  067 380 22 23</p>
+                    <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                    </div>
+                    <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                 </div>
+                 <div class="service-station_adressesItem">
+                    <div class="_adressesItem-wrapper">
+                    <p class="adressesItem-contacts">Радивилів, вул. Почаївська, 3н    096 668 11 55</p>
+                    <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                    </div>
+                    <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                 </div>
+                </div>
+                </div>
+                <div class="service-station_cityContainer _cityLutsk">
+                <div class="service-station_headerGeo">
+                    <img src="img/service-icon.svg" alt="" class="headerGeo-icon">
+                    <p class="headerGeo-place">СТЦ у Луцьку</p>
+                </div>
+                <div class="service-station_adresses">
+                    <div class="service-station_adressesItem">
+                        <p class="adressesItem-contacts _adress-margin">Кравчука, 44 |  067 800 76 22</p>
+                        <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                     </div>
+                     <div class="service-station_adressesItem">
+                        <div class="_adressesItem-wrapper">
+                        <p class="adressesItem-contacts">Гонгадзе, 5  |  067 707 07 79</p>
+                        <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                        </div>
+                        <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                     </div>
+                     <div class="service-station_adressesItem">
+                        <div class="_adressesItem-wrapper">
+                        <p class="adressesItem-contacts">Соборна, 446В  |  067 380 22 23</p>
+                        <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                        </div>
+                        <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                     </div>
+                     <div class="service-station_adressesItem _lastAdres_Lutsk">
+                        <div class="_adressesItem-wrapper">
+                        <p class="adressesItem-contacts">Об’їзна, Рованці, Технічна, 1 |  097 645 4433</p>
+                        <p class="contacts-description">Діагностика та заправка кондиціонерів</p>
+                        </div>
+                        <a href="#" onclick="return false;" class="contacts-button">Як проїхати</a>
+                     </div>
+                </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        </section>
+        <!----------------------------------------------------------------------------------------------->
+        <!--Video-gyde----------------------------------------------------------------------------------->
+        <section class="video-gyde">
+            <div class="video-gyde_wrapper">
+                <div class="video-gyde_container">
+                    <p class="video-gyde_header">
+                        <h2 class="video-gyde_tittle">Відео-гід, як доїхати на СТЦ Restart</h2>
+                    </p>
+                    <div class="video-gyde_item">
+                        <h4 class="video-gyde_itemAdress">Рівне, Підкови, 17з</h4>
+                        <iframe width="560" height="315" class="video-gyde_itemVideo" src="https://www.youtube.com/embed/JkCt9FZQ0fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-gyde_item">
+                        <h4 class="video-gyde_itemAdress">Рівне, Соборна, 446В</h4>
+                        <iframe width="560" height="315" class="video-gyde_itemVideo" src="https://www.youtube.com/embed/tDY2eTxnCcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-gyde_item _thirdVideo">
+                        <h4 class="video-gyde_itemAdress">Рівне, Київська, 98г</h4>
+                        <iframe width="560" height="315" class="video-gyde_itemVideo" src="https://www.youtube.com/embed/jilaKdy7kF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-gyde_item">
+                        <h4 class="video-gyde_itemAdress">Луцьк, Гонгадзе, 5</h4>
+                        <iframe width="560" height="315" class="video-gyde_itemVideo" src="https://www.youtube.com/embed/jilaKdy7kF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-gyde_item">
+                        <h4 class="video-gyde_itemAdress">Луцьк, с. Рованці, Технічна, 1</h4>
+                        <iframe width="560" height="315" class="video-gyde_itemVideo" src="https://www.youtube.com/embed/jilaKdy7kF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------------------------------------------------------------------->
+        <!--Contact form----------------------------------------------------------------------------------------->
+         <section class="contact-form">
+            <div class="contact-form_wrapper">
+                <div class="contact-form_container">
+                    <div class="contact-form_imgBackground">
+                        <img src="img/contact-form.png" alt="" class="contact-form_img">
+                        <img src="img/formIpad.png" alt="" class="contact-formIpad_img">
+                        <img src="img/contact-form_imgDesctop.png" alt="" class="contact-formDesctop">
+                        <h2 class="contact-form_title">Заповніть форму <br class="contact-form_br"> для консультації або запису на діагностику/ремонт</h2> 
+                        <form action="" class="contact-form_form">
+                            <div class="contact-form_formBody">
+                                <h3 class="formBody-header">Введіть, будь ласка, ваші контактні дані</h3>
+                                <p class="formBody-option">Ваше ім’я <span>*</span></p>
+                                <input type="text" placeholder="Введіть ваше ім’я" class="formBody-inputName">
+                                <p class="formBody-option">Телефон<span>*</span></p>
+                                <input type="text" placeholder="Ваш контактний номер телефону" class="formBody-inputPhone">
+                                <p class="formBody-option">Місто<span>*</span></p>
+                                <input type="text" placeholder="Оберіть місто зі списку" class="formBody-inputCity">
+                                <a href="#" onclick="return false;" class="formBody-button">Замовити <br class="formBody-button_Br">телефонний дзвінок</a>
+                            </div>
+                            <div class="internet-shop_modalWrapper">
+                                <div class="internet-shop_modalContainer">
+                                    <div class="internet-shop_modalHeader">
+                                        <div class="closeWindow">
+                                            <span class="closeWindow-line"></span>
+                                        </div>
+                                    </div>
+                                    <img src="img/internet-shop_modalIcon.svg" alt="" class="internet-shop_modalIcon">
+                                    <img src="img/internet-shop_iconMmobile.svg" alt="" class="internet-shop_iconMobile">
+                                    <p class="text-thanks">Дякуємо вам за заявку! Найближчим часом наш консультант зв’яжеться з вами</p>
+                                    <p class="text-prediction">Будьте в курсі останніх новин компанії, підписуйтесь на нас в соціальних мережах</p>
+                                    <div class="internet-shop_bodyImg">
+                                        <img src="img/internet-shop_facebookIcon.svg" alt="" class="bodyImg-icon">
+                                        <img src="img/internet-shop_instagramIcon.svg" alt="" class="bodyImg-icon">
+                                        <img src="img/internet-shop_youtubeIcon.svg" alt="" class="bodyImg-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!----------------------------------------------------------------------------------------------------->
+        <!--services-list-->
+        <section class="services-list">
+            <div class="services-list_wrapper">
+                <div class="services-list_mainTitle_wrapper">
+                <h3 class="services-list_mainTitle">Мережа СЦТ Restart (Рестарт) надає наступні послуги</h3>
+                </div>
+                <div class="services-list_container">
+                   
+                     <div class="services-list_starters">
+                        <h4 class="services-list_title">Стартери</h4>
+                        <ul class="services-list_list">
+                            <li>• діагностика стартера</li>
+                            <li>• ремонт стартера</li>
+                            <li>• заміна стартера</li>
+                            <li>• заміна бендикса</li>
+                            <li>• заміна втягуючого реле (соленоїда)</li>
+                        </ul>
+                        <ul class="services-list_list _secondList">
+                            <li>• заміна втягуючого реле (соленоїда)</li>
+                            <li>• заміна статора стартера</li>
+                            <li>• заміна ротора стартера</li>
+                            <li>• заміна втулок</li>
+                       </ul>
+                        <ul class="services-list_list">
+                            <li>• заміна щіток стартера</li>
+                            <li>• заміна щіткотримача стартера</li>
+                            <li>• заміна редуктора стартера</li>
+                            <li>• заміна корпуса стартера</li>
+                       </ul>
+                        <ul class="services-list_list _secondList">
+                            <li>• продаж стартерів</li>
+                            <li>• продаж компонентів стартера</li>
+                            <li>• продаж стартерів</li>
+                            <li>• продаж компонентів стартера</li>
+                       </ul>
+                       <p class="services-list_order">Підібрати стартер та деталі
+                        стартера можна в <br class="service-listBr"><a href="" class="services-list_orderLink">інтернет-магазині</a>
+                       </p>
+                    </div>
+                    <div class="services-list_generators">
+                        <h4 class="services-list_title">Генератори</h4>
+                        <ul class="services-list_list">
+                            <li>• діагностика генератора</li>
+                            <li>• ремонт генератора</li>
+                            <li>• заміна генератора</li>
+                            <li>• заміна регулятора напруги</li>
+                        </ul>
+                        <ul class="services-list_list _secondList">
+                            <li>• заміна діодного моста</li>
+                            <li>• заміна статора генератора</li>
+                            <li>• заміна ротора генератора</li>
+                            <li>• заміна інерційного шківа</li>
+                       </ul>
+                        <ul class="services-list_list">
+                            <li>• заміна шківа</li>
+                            <li>• заміна щіток генератора</li>
+                            <li>• заміна щіткотримача генератора</li>
+                            <li>• заміна підшипника</li>
+                       </ul>
+                        <ul class="services-list_list _secondList">
+                            <li>• заміна корпуса</li>
+                            <li>• заміна ременя генератора</li>
+                            <li>• продаж генераторів</li>
+                            <li>• продаж компонентів генератора</li>
+                       </ul>
+                       <p class="services-list_order">Підібрати генератор та деталі генератора можна в
+                       <br class="service-listBr"><a href="" class="services-list_orderLink">інтернет-магазині</a>
+                       </p>
+                    </div>
+                    <div class="services-list_conditions">
+                        <h4 class="services-list_title">Кондиціонери</h4>
+                        <ul class="services-list_list _conditionList">
+                            <li>• діагностика системи кондиціонування азотом</li>
+                            <li>• ремонт системи кондиціонування</li>
+                            <li>• заправка кондиціонера фреоном</li>
+                            <li>• дозаправка кондиціонера фреоном</li>
+                            <li>• антибактеріальна чистка систем кондиціонування</li>
+                            <li>• озонування салону авто</li>
+                        </ul>
+                        <ul class="services-list_list _conditionListIpad _secondList">
+                             <li>• заміна діодного моста</li>
+                             <li>• заміна статора генератора</li>
+                             <li>• заміна ротора генератора</li>
+                             <li>• заміна інерційного шківа</li>
+                        </ul>
+                        <p class="services-list_order">Підібрати запчастини до <br class="service-listBr">системи кондиціонування можна в
+                       <a href="" class="services-list_orderLink">інтернет-магазині</a>
+                       </p>
+                       
+                    </div>
+                    <div class="services-list_acumulators">
+                        <h4 class="services-list_title">Акумулятори</h4>
+                        <ul class="services-list_list _accumulatorsList">
+                            <li>• продаж акумуляторів</li>
+                            <li>• заряд автомобільних акумуляторів</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+    </div>
+    <div class="container">
+        
+    <footer>
+    <div class="footer">
+        <div class="footer-wrapper">
+    <div class="navigation-link_footerWrapper">
+        <a class="footer-navigation_link _link-footerAbout" href="about.html">Про компанію</a>
+        <a class="footer-navigation_link _link-footerNetwork" href="network.html">Мережа СТЦ</a>
+        <a class="footer-navigation_link _link-footerInternet-shop" href="main.html">Інтернет-магазин</a>
+        <a class="footer-navigation_link _link-footerReady-solution" href="ready-solution.html">Готові рішення для СТО</a>
+        <a class="footer-navigation_link _link-footerContacts" href="contacts.html">Контакти</a>
+        </div>
+        <div class="footer-text_info"><p>
+            Мережа СТЦ Restart надає послуги діагностики, професійного 
+             стартера, генератора у Рівном, Луцьку. Заміна бендиксів, втягуючих реле,
+              статорів, роторів, втулок, щіток, підшипників, регуляторів, діодних мостів. 
+              Ремонт, заправка кондиціонерів. Продаж стартерів, генераторів. Великий вибір 
+              компонентів: бендикс стартера, підшипники до стартерів, підшипники до генераторів,
+               соленоїди, щітки стартера, якір стартера, регулятор генератора, шків генератора, 
+               діодний міст генератора, щітки генератора. У нашому асортименті стартера, генератори,
+                компоненти брендів AS, Cargo, Koyo, ZM, ZEN, IKA, Mobiletron, оригінальні бренди BOSCH, 
+                DELCO, DENSO.
+                </p>
+                <span>© Restart 2019</span>
+        </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script>
+        const formButton = document.querySelector('.formBody-button');
+        const formModal = document.querySelector('.internet-shop_modalWrapper');
+        const closeFormModal = document.querySelector('.closeWindow');
+        const formWindow = document.querySelector('.contact-form_formBody');
+        (function() {
+        formButton.addEventListener('click', () => {
+        formModal.style.zIndex = 53;
+       
+        closeFormModal.addEventListener('click', () => {
+            formModal.style.zIndex = -12;
+        })
+         })
+}())
+    </script>
+   
+      <script>
+        const linkNetwork = document.querySelector('._link-network');
+        if('.network_linkActive') {
+            linkNetwork.style.color = '#888888'
+        }
+    </script>
+     <script>
+        const linkFooterNetwork = document.querySelector('_link-footerNetwork');
+            if('._linkActive-footer') {
+                linkFooterNetwork.style.color = '#888888'
+       }
+    </script>
+</body>
+</html>
